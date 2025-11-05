@@ -1,15 +1,12 @@
 
 
-# --- Step 1: Define chatbot function ---
 def chatbot():
     print("🤖 Chatbot: Hello! I'm your friendly assistant.")
     print("Type 'bye' anytime to exit.\n")
 
-    # --- Step 2: Start chat loop ---
     while True:
         user_input = input("You: ").lower().strip()
 
-        # --- Step 3: Match user input with predefined responses ---
         if user_input in ["hello", "hi", "hey"]:
             print("🤖 Chatbot: Hi there! How can I help you today?")
 
@@ -35,9 +32,8 @@ def chatbot():
         else:
             print("🤖 Chatbot: Sorry, I didn’t understand that. Can you try again?")
 
-# --- Step 4: Run chatbot ---
 chatbot()
 
-# --- Step 5: End of program ---
 print("\n✨ Program finished successfully!")
+
 
