@@ -1,5 +1,4 @@
-# --- TASK 4: BASIC CHATBOT ---
-# Goal: Build a simple rule-based chatbot using if-elif, functions, loops, and input/output
+
 
 # --- Step 1: Define chatbot function ---
 def chatbot():
@@ -41,3 +40,4 @@ chatbot()
 
 # --- Step 5: End of program ---
 print("\n✨ Program finished successfully!")
+
